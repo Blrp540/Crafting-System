@@ -19,6 +19,6 @@ public class Console {
 		i.addItem(sand4);
 		i.addItem(sand5);
 		System.out.println(i);
-		Player p = new Player(i);
+		Player p = new Player("Player", i);
 	}
 }
