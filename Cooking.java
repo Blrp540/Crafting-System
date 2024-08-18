@@ -2,8 +2,8 @@ import java.util.HashMap;
 
 public class Cooking {
 	public static void main(String[] args) {
-		Reagent meat = new Reagent("Stingwing Meat");
-		Reagent spices = new Reagent("Spices");
+		Reagent meat = new Reagent("Stingwing Meat", 1, 1);
+		Reagent spices = new Reagent("Spices", 1, 1);
 		HashMap<Reagent, Integer> requirements = new HashMap<Reagent, Integer>();
 		requirements.put(meat, 1);
 		requirements.put(spices, 2); 
